@@ -1,0 +1,5 @@
+{
+  "name": "TokenFlow: FST Visualizer",
+  "description": "Interactive Finite-State Transducer visualization for BPE, WordPiece, and Unigram tokenization algorithms with AI-powered insights.",
+  "requestFramePermissions": []
+}
