@@ -5,11 +5,6 @@ pages_build_output_dir = "./dist"
 [env.production]
 vars = { }
 
-[env.production.secrets]
-GEMINI_API_KEY = "AIzaSyCvyaumwRcwMi41STDc3l5PgFumOam_kK0"
 
 [env.preview]
 vars = { }
-
-[env.preview.secrets]
-GEMINI_API_KEY = ""
