@@ -1,5 +1,15 @@
 name = "tokenizer-visualization"
 compatibility_date = "2025-12-05"
+pages_build_output_dir = "./dist"
 
-[assets]
-directory = "./dist"
+[env.production]
+vars = { }
+
+[env.production.secrets]
+GEMINI_API_KEY = ""
+
+[env.preview]
+vars = { }
+
+[env.preview.secrets]
+GEMINI_API_KEY = ""
